@@ -1,0 +1,75 @@
+.info-modal-notification {
+  position: absolute !important;
+  margin-right: 220px;
+  margin-top: 90px;
+  right: 0 !important;
+  display: unset !important;
+}
+
+.info-modal-notification .modal-content {
+  background-color: #1f1f1f !important;
+  border: 0 solid black !important;
+  border-radius: 20px !important;
+  padding: 10px 10px !important;
+  width: 350px;
+}
+
+.notif-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.notif-by-person {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.notif-by-person:hover {
+  background-color: #535353;
+}
+
+.notif-photo {
+  flex: 20%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.notif-content {
+  flex: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.notif-circlement {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 5px;
+  display: flex;
+}
+
+.notif-person-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ababab;
+}
+
+.no-notif {
+  font-size: 15px;
+  color: white;
+}
+
+.notif-kosong {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

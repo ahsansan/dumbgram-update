@@ -1,0 +1,19 @@
+.masonry-style-exp {
+  columns: 3;
+  column-gap: 0;
+}
+
+.images-explore {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.mansory-container-exp {
+  padding: 20px;
+}
+
+.explore-post-container {
+  padding: 5px;
+}

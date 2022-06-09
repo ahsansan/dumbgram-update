@@ -1,0 +1,115 @@
+.detail-dm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.detail-dm-by-person {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.detail-dm-photo {
+  flex: 20%;
+  padding-left: 10px;
+}
+
+.detail-dm-content {
+  flex: 80%;
+}
+
+.detail-dm-circlement {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.detail-dm-person-message {
+  padding-top: 5px;
+  font-size: 19px;
+  color: #ababab;
+}
+
+.dm-reply {
+  width: 90%;
+  margin-top: 25px;
+}
+
+.dm-textarea {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: #d2d2d240;
+  border: 2px solid #d2d2d2;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #b1b1b1;
+  padding: 10px;
+  width: 90%;
+  box-sizing: border-box;
+  resize: none;
+  height: 50px;
+}
+
+.chat-me {
+  position: relative;
+  background: #262626;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-me::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #262626;
+  border-bottom: 15px solid transparent;
+}
+.chat-other {
+  position: relative;
+  background: #575757;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-other::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -15px;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #575757;
+  border-bottom: 15px solid transparent;
+}
+
+.info-modal-send .modal-content {
+  background-color: #1f1f1f !important;
+  border: 0px solid white !important;
+  border-radius: 15px !important;
+  padding: 20px 10px !important;
+  margin-top: 250px;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.send-your-message {
+  text-align: center;
+  margin-bottom: 20px;
+}

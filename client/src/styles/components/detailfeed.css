@@ -1,0 +1,155 @@
+a {
+  text-decoration: none;
+}
+
+.info-modal-feed {
+  margin-right: 500px;
+  margin-top: 90px;
+}
+
+.info-modal-feed .modal-content {
+  background-color: #1f1f1f !important;
+  border: 0 solid black !important;
+  border-radius: 5px !important;
+  width: 700px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-image {
+  flex: 60%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.detail-lain {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-uploader {
+  display: flex;
+  flex-direction: inline;
+  border-bottom: 1px solid grey;
+}
+
+.foto-uploader {
+  flex: 30%;
+  padding: 15px;
+}
+
+.foto-uploader img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.data-uploader {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nama-uploader {
+  padding-top: 25px;
+  color: rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.caption-uploader {
+  font-size: 13px;
+}
+
+.komen-container {
+  height: 250px;
+  overflow: auto;
+}
+
+.detail-komen {
+  display: flex;
+  flex-direction: inline;
+  justify-content: flex-start;
+}
+
+.foto-komen {
+  flex: 30%;
+  padding: 15px;
+}
+
+.foto-komen img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.data-komen {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nama-komen {
+  padding-top: 15px;
+  color: rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.caption-komen {
+  font-size: 13px;
+  padding-right: 5px;
+}
+
+.reaction-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-icon {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.likers {
+  color: rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: 800;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.kolom-komentar {
+  display: flex;
+  justify-content: center;
+}
+
+.kolom-komentar input {
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #d2d2d240;
+  border: 2px solid #d2d2d2;
+  border-radius: 5px;
+  color: #b1b1b1;
+  font-size: 13px;
+}
